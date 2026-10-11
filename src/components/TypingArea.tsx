@@ -28,7 +28,7 @@ export const TypingArea: React.FC<TypingAreaProps> = ({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(timerMode);
+  const [timeLeft, setTimeLeft] = useState<number>(timerMode);
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
   const [incorrectCount, setIncorrectCount] = useState(0);
 

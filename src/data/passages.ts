@@ -27,7 +27,7 @@ export const PASSAGES: Passage[] = [
     title: 'Relativity Made Simple',
     category: 'science',
     difficulty: 'hard',
-    text: 'Einstein realized that time is not a fixed constant flowing at the same rate for all observers. Instead, time is relative to the observer's velocity and position in a gravitational field. A clock on a fast-moving spacecraft ticks more slowly than an identical clock on Earth. GPS satellites must account for this effect or navigation errors would accumulate rapidly, rendering the entire system useless within hours.',
+    text: "Einstein realized that time is not a fixed constant flowing at the same rate for all observers. Instead, time is relative to the observer's velocity and position in a gravitational field. A clock on a fast-moving spacecraft ticks more slowly than an identical clock on Earth. GPS satellites must account for this effect or navigation errors would accumulate rapidly, rendering the entire system useless within hours.",
   },
   {
     id: 'p5',
